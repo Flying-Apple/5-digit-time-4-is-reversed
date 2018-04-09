@@ -1,0 +1,1 @@
+print([c for c in [str(number) for number in range(10000,25000)] if str(int(c)*4)== c[4]+c[3]+c[2]+c[1]+c[0]])
